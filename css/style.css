@@ -1,0 +1,93 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#todo-container {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 30em;
+    min-height: 650px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 5px;
+    font-family: 'Indie Flower', cursive;
+    background: #eee;
+    border: solid 1px black;
+}
+#todo-container h2 {
+    background-color: rgb(96, 128, 177);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5em;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(179, 179, 179);
+}
+
+#todo-form {
+    background-color: rgb(96, 128, 177);
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
+
+#add-new-element {
+    border: none;
+    padding: 0;
+}
+
+#add-btn {
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    width: 3.5em;
+    height: 3.5em;
+    padding: 0;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#add-btn span {
+    font-size: 2.5em;
+    color: gray;
+}
+
+
+#add-new-element {
+    padding: 1em;
+    width: 70%;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 0;
+    background: #eee;
+}
+
+ul li {
+    padding: 1em;
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    background: #fff;
+    font-size: 1em;
+    transition: 0.2s;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    float: right;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+
+}
